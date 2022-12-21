@@ -1,4 +1,5 @@
 # Data-Analytics-Projects
+# Sales Insight of Laptop Manufacturer: SQL
 
 1. Show all customer records
 
@@ -35,3 +36,8 @@ SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON trans
 9. Show total revenue in year 2020 in Chennai
 
 SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.market_code="Mark001";
+
+
+# For Tableau 
+Please follow the link below:
+https://public.tableau.com/app/profile/saroj.rimal2887/viz/SalesInsightsofDemoManufacturer/Dashboard1
